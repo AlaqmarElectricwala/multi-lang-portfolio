@@ -1,0 +1,42 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, #C66DFB 50%, #9857F1 50%);
+
+
+}
+
+#time {
+    display: flex;
+    flex-direction: row;
+}
+
+#hours,
+#minutes,
+#seconds {
+    background-color: white;
+    font-size: 120px;
+    font-weight: bold;
+    padding: 30px, 40px;
+    border-radius: 20px;
+    color: #231C50;
+    box-shadow: 4px, 4px, 20px,white;
+
+}
+
+.colon {
+    font-size: 120px;
+    color: white;
+    margin: 0px, 20px;
+    font-weight: bold;
+}
+
+h1 {
+    position: absolute;
+    bottom: 100px;
+    background-color: white;
+    font-size: 40px;
+    padding:10px;
+    border-radius: 14px;
+}
